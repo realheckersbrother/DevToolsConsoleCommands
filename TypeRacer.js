@@ -34,7 +34,6 @@ if (content.length === 0) {
         setTimeout(a, baseDelay * jitter);
     }
 
-    // Give yourself a 1-second head start to click into the game
     console.log("Starting in 1s...");
     setTimeout(a, 1000);
 }
